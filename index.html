@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Show Player — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5c5c5c;
+    --rule: #e3e3e3;
+    --accent: #3b5bdb;
+    --card: #f6f7f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141414;
+      --fg: #ececec;
+      --muted: #a2a2a2;
+      --rule: #2e2e2e;
+      --accent: #8fa6ff;
+      --card: #1e1e1e;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141414;
+    --fg: #ececec;
+    --muted: #a2a2a2;
+    --rule: #2e2e2e;
+    --accent: #8fa6ff;
+    --card: #1e1e1e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 4px; letter-spacing: -0.02em; }
+  h2 {
+    font-size: 1.2rem; margin: 44px 0 10px; letter-spacing: -0.01em;
+    padding-top: 18px; border-top: 1px solid var(--rule);
+  }
+  h3 { font-size: 1rem; margin: 26px 0 6px; }
+  p, li { color: var(--fg); }
+  .meta { color: var(--muted); font-size: 0.92rem; margin: 0 0 32px; }
+  .lede { font-size: 1.06rem; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 650; }
+  .card {
+    background: var(--card); border: 1px solid var(--rule);
+    border-radius: 10px; padding: 16px 18px; margin: 20px 0;
+  }
+  .card p:first-child { margin-top: 0; }
+  .card p:last-child { margin-bottom: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 18px 0; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-weight: 650; }
+  .scroll { overflow-x: auto; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Privacy Policy for Show Player</h1>
+  <p class="meta">Last updated: 21 October 2026</p>
+
+  <p class="lede">Show Player is a video player for Android that organises the videos on your
+  device into shows, movies and playlists. It works entirely on your device, with your own
+  files. It has no internet access, no advertising, no analytics and no tracking of any kind.
+  This policy explains what the app does with your videos and what it keeps on your device.</p>
+
+  <p>This policy applies to the Show Player app for Android (package <code>com.showplayer.app</code>), published by
+  Sebastian Frankenberger, a single independent developer.</p>
+
+  <h2>The short version</h2>
+  <ul>
+    <li>Your videos never leave your device through Show Player. I cannot see them.</li>
+    <li>The app does not request Android's internet permission, so it cannot send anything anywhere.</li>
+    <li>There are no accounts, no servers, no ads and no analytics. I collect nothing about you.</li>
+    <li>Purchases, if you make any, are handled entirely by Google Play. I never see your payment details.</li>
+  </ul>
+
+  <h2>Videos and files on your device</h2>
+
+  <p>Show Player reads the videos in your device's storage so it can list and play them. It uses
+  Android's standard media access, which asks for your permission the first time. Depending on
+  your Android version, you may be asked to allow access to all videos or to selected ones.</p>
+
+  <p>Everything Show Player does with your videos happens on your device:</p>
+  <ul>
+    <li><strong>Playing, browsing and sorting</strong> reads your files and does not copy them anywhere.
+        To show lengths, thumbnails and the right orientation, the app reads technical details
+        stored in the video files themselves (such as duration and resolution).</li>
+    <li><strong>Grouping into shows and episodes</strong> works from folder and file names on your device.</li>
+    <li><strong>Moving, renaming and deleting</strong> change files on your device only, and go through
+        Android's own confirmation dialogs. Deleted videos go to a bin first, so they can be restored
+        until the bin is emptied.</li>
+    <li><strong>Folder access.</strong> For folders Android does not let the app write into directly, you
+        can grant access once through Android's own folder picker. You can revoke it at any time.</li>
+    <li><strong>Media management (optional).</strong> On Android 12 and later you can allow Show Player as a
+        "media management app" in your phone's settings, so Android's confirmations for moving,
+        renaming and deleting are answered without a dialog. This is off unless you turn it on, and
+        it does not give the app any additional access to your data.</li>
+    <li><strong>Tags</strong> for smart playlists are read from, and if you choose, written into, the video
+        file's own metadata on your device. Those tags travel with the file if you later copy it
+        elsewhere yourself.</li>
+  </ul>
+
+  <p>Your settings, watch progress, shows, playlists, hidden folders and thumbnails are stored in
+  Show Player's own private storage on the device. Uninstalling the app deletes them.</p>
+
+  <div class="card">
+    <p><strong>I have no access to any of this.</strong> There is no Show Player account, no cloud sync
+    and no server I operate. Nothing described in this section is transmitted to me or to anyone else.</p>
+  </div>
+
+  <h2>Purchases</h2>
+
+  <p>Show Player may offer optional in-app purchases, such as an upgrade that unlocks extra features.
+  Each purchase is a transaction handled entirely by Google Play. <strong>I never see or receive your
+  payment details</strong> — not your card number, not your name, not your billing address.</p>
+
+  <p>To know whether a purchased feature is unlocked, the app asks Google Play whether the Google account
+  on this device owns it, and stores the answer — a single yes or no — in the app's private storage on the
+  device. That answer contains nothing about who you are.</p>
+
+  <p>Purchases are tied to your Google account, so reinstalling Show Player or moving to a new device can
+  restore them. Google's <a href="https://policies.google.com/privacy">Privacy Policy</a> covers its
+  processing of the payment itself.</p>
+
+  <h2>Sharing with other apps</h2>
+
+  <p>When you use <strong>Share</strong> or <strong>Open with</strong>, Show Player hands the selected video
+  to the app you choose, using Android's standard sharing. This only happens when you ask for it.
+  What the receiving app does with the video is covered by that app's own privacy policy.</p>
+
+  <h2>Device backup</h2>
+
+  <p>If you have turned on Android's own backup for your Google account, Android may include Show
+  Player's settings in that backup, so they can be restored on a new device. This backup is
+  performed and stored by Google under your account and is covered by Google's
+  <a href="https://policies.google.com/privacy">Privacy Policy</a>. Your videos are not part of it,
+  and I have no access to it. You can turn backup off in your phone's settings.</p>
+
+  <h2>What is collected, at a glance</h2>
+
+  <div class="scroll">
+  <table>
+    <tr><th>Data</th><th>Who collects it</th><th>Why</th></tr>
+    <tr>
+      <td>Videos and their metadata</td>
+      <td>Nobody — stays on device</td>
+      <td>To list, play and organise your library</td>
+    </tr>
+    <tr>
+      <td>Settings, watch progress, playlists, bin</td>
+      <td>Nobody — stays on device</td>
+      <td>To remember where you left off and how you like the app</td>
+    </tr>
+    <tr>
+      <td>Purchase status</td>
+      <td>Google Play</td>
+      <td>To unlock purchased features</td>
+    </tr>
+    <tr>
+      <td>Settings in device backup</td>
+      <td>Google, only if you enabled Android backup</td>
+      <td>To restore your settings on a new device</td>
+    </tr>
+  </table>
+  </div>
+
+  <h2>Your rights</h2>
+
+  <p>Because I hold no data about you, there is nothing for me to export, correct or erase on
+  request. If you are in the EEA or UK, the General Data Protection Regulation gives you rights of
+  access, rectification, erasure, restriction, objection and portability. Show Player itself holds
+  nothing on my side to which those rights could attach. For an Android backup, Google is the
+  controller and you can exercise your rights directly with Google.</p>
+
+  <p>To remove everything Show Player stores on your device, uninstall the app or clear its data in
+  <strong>Settings → Apps → Show Player → Storage</strong>.</p>
+
+  <h2>Children</h2>
+
+  <p>Show Player is not directed at children and I do not knowingly collect any data from children.
+  The app contains no content of its own; it plays only the videos already on your device.</p>
+
+  <h2>Security</h2>
+
+  <p>Show Player's own data stays within the app's private storage, protected by Android's own
+  sandboxing. Because the app has no internet access and nothing is transmitted to me, there is no
+  server of mine that could be breached.</p>
+
+  <h2>Changes to this policy</h2>
+
+  <p>If Show Player gains a feature that changes how data is handled, this policy will be updated
+  and the date at the top revised. Material changes will also be noted in the app's release notes
+  on Google Play.</p>
+
+  <h2>Contact</h2>
+
+  <p>Questions about this policy or about privacy in Show Player:</p>
+  <p>
+    <strong>Developer:</strong> Sebastian Frankenberger<br>
+    <strong>Email:</strong> sebastianfrankenberger.dev@gmail.com<br>
+    <strong>Address:</strong><br>
+    Rotebühlstraße 53-57<br>
+    70178 Stuttgart<br>
+    Germany
+  </p>
+
+  <footer>
+    Show Player — Privacy Policy · Last updated 21 October 2026
+  </footer>
+
+</div>
+</body>
+</html>
